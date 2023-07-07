@@ -1,0 +1,70 @@
+body{
+    background-color: #000000;
+}
+.clock {
+    position:relative;
+    margin:auto;
+    height: 60vw;
+    width: 60vw;
+    border: 10px solid #E8F9FD;
+    border-radius: 50%;
+}
+    .hrhand,
+    .minhand,
+    .sechand {
+    position: absolute;
+    background: #E8F9FD;
+    border-radius: 10px;
+    transform-origin: bottom;
+    } 
+
+    .names{
+        margin-top:15px;
+        text-align: center;
+    }
+    .hrName{
+       font-family: 'Trebuchet MS', sans-serif;
+       font-size: 10vw;
+       color: #E8F9FD;
+    }
+    .minName{
+       font-family: 'Trebuchet MS', sans-serif;
+       font-size: 10vw;
+       color: #E8F9FD;
+    }
+    .secName{
+       font-family: 'Trebuchet MS', sans-serif;
+       font-size: 10vw;
+       color: #FF1E00;
+    }
+    .ampm{
+       font-family: 'Trebuchet MS', sans-serif;
+       font-size: 10vw;
+       color: #E8F9FD;
+    }
+
+    .hrhand {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+    }
+    
+    .minhand{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+    }
+    
+    .sechand {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+    background: #FF1E00;
+    }
+
